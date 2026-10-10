@@ -4,14 +4,16 @@ The root README appears at https://github.com/gazzy-source. GazzyLabs is the pro
 
 ## Layout
 
-Use native GitHub Markdown, short paragraphs, and a single-column project list. The introduction, three selected projects, stack line, and contact link are the main content. GitHub activity sits inside a collapsed details section.
+Use GitHub's native headings, links, inline code, tables, Mermaid, and collapsible details. The profile has a personal introduction, navigation links, an availability callout, three project highlights, a skills matrix, a simplified architecture diagram, visible metrics, and a contact section.
 
-The earlier hero, screenshot, project-card table, and metrics graphic are no longer embedded. Existing SVG assets remain available in the repository; the refresh still generates the metrics SVG for optional use.
+Each project has an expandable engineering overview. A separate details section explains engineering priorities. Keep the main copy scannable, and put deeper technical material inside details blocks.
+
+The earlier SVG hero and full-width screenshot are not embedded. Existing SVG assets remain available; the refresh still generates the metrics SVG for optional use. The metrics text is visible below Building in public.
 
 ## Editing
 
 - Edit the introduction, project descriptions, stack, and contact link directly in README.md.
-- Keep both METRICS comment markers inside the details section. Only the text between them is generated.
+- Keep both METRICS comment markers below Building in public, outside details blocks. Only the text between them is generated.
 - The enquiry link opens a public issue in the NetDash showcase, following that repository's existing contact convention. Replace it with a preferred email or booking URL when available.
 - NetDash links to a public showcase, not the private application source.
 
