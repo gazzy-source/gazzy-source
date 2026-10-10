@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">GazzyLabs — Useful software. Built with care.</title>
+<desc id="desc">Freelance engineering, open source, and product experiments.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142333"/><stop offset="1" stop-color="#080e18"/></linearGradient>
+<linearGradient id="mint"><stop stop-color="#bcffd8"/><stop offset="1" stop-color="#78e4dc"/></linearGradient>
+<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#c5e3eb" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1200" height="460" rx="24" fill="url(#bg)"/><rect width="1200" height="460" rx="24" fill="url(#grid)"/>
+<path d="M930 0 725 460M1140 0 935 460" stroke="#92ffd3" stroke-opacity=".025" stroke-width="94"/>
+<g fill="none" stroke="#9ef2ce">
+<circle cx="1013" cy="227" r="121" opacity=".16"/>
+<circle cx="1013" cy="227" r="85" opacity=".09"/>
+<ellipse cx="1013" cy="227" rx="121" ry="45" transform="rotate(-35 1013 227)" opacity=".5"/>
+<ellipse cx="1013" cy="227" rx="57" ry="121" transform="rotate(-35 1013 227)" opacity=".35"/>
+<path d="M844 227h338M1013 60v334" stroke-dasharray="3 7" opacity=".15"/>
+</g>
+<circle cx="1110" cy="154" r="7" fill="#b6ffd4"/><circle cx="1013" cy="227" r="12" fill="#b6ffd4" opacity=".9"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="52" y="40" width="36" height="36" rx="10" fill="url(#mint)"/><text x="61" y="66" font-size="27" fill="#10231e" font-weight="800">g</text>
+<text x="102" y="67" fill="#eaf3fa" font-size="23" font-weight="700" letter-spacing="1">gazzylabs<tspan fill="#b6ffd4">.</tspan></text>
+<text x="54" y="140" font-size="13" fill="#a1b7cc" letter-spacing="2.5">INDEPENDENT MIND. HANDS-ON ENGINEERING.</text>
+<text x="50" y="219" font-size="66" fill="#f0f6fa" font-weight="750" letter-spacing="-2">Useful software.</text>
+<text x="50" y="295" font-size="66" fill="url(#mint)" font-weight="750" letter-spacing="-2">Built with care.</text>
+<text x="54" y="347" font-size="18" fill="#aebfd0">From the first idea to the details that keep it running.</text>
+<path d="M54 385h42" stroke="#b6ffd4" stroke-width="2"/>
+<text x="112" y="390" font-size="12" fill="#c4d2df" letter-spacing="1.6">FREELANCE / OPEN SOURCE / PRODUCT EXPERIMENTS</text>
+</g></svg>
