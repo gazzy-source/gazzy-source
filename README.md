@@ -92,7 +92,7 @@ Architecture walkthroughs, interactive exercises, flashcards, and browser-local 
 <img src="assets/metrics.svg" width="100%" alt="Public GitHub metrics for gazzy-source; the values and date are also available below." />
 
 <!-- METRICS:START -->
-**3 public repositories** · **1 stars** · **0 forks** · **0 followers**
+**3 public repositories** · **1 star** · **0 forks** · **0 followers**
 
 <sub>Python: 1 · TypeScript: 1. Updated 2026-10-10 UTC.</sub>
 <!-- METRICS:END -->
