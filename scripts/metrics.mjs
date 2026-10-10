@@ -41,6 +41,6 @@ export function replaceMetrics(readme, metrics, date) {
   const pattern = /<!-- METRICS:START -->[\s\S]*?<!-- METRICS:END -->/;
   if (!pattern.test(readme)) throw new Error('README metrics markers missing');
   const languages = metrics.languages.map(([name, count]) => xml(name) + ': ' + count).join(' · ') || 'No primary languages reported yet';
-  const text = '**' + metrics.repositories + ' public repositories** · **' + metrics.stars + ' stars** · **' + metrics.forks + ' forks** · **' + metrics.followers + ' followers**\n\n<sub>' + languages + '. Updated ' + date + ' UTC.</sub>';
+  const text = '**' + metrics.repositories + ' public repositories** · **' + metrics.stars + (metrics.stars === 1 ? ' star**' : ' stars**') + ' · **' + metrics.forks + (metrics.forks === 1 ? ' fork**' : ' forks**') + ' · **' + metrics.followers + (metrics.followers === 1 ? ' follower**' : ' followers**') + '\n\n<sub>' + languages + '. Updated ' + date + ' UTC.</sub>';
   return readme.replace(pattern, () => '<!-- METRICS:START -->\n' + text + '\n<!-- METRICS:END -->');
 }
