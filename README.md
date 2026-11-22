@@ -106,9 +106,9 @@ flowchart LR
 ## Building in public
 
 <!-- METRICS:START -->
-**3 public repositories** · **1 star** · **0 forks** · **0 followers**
+**4 public repositories** · **1 star** · **0 forks** · **0 followers**
 
-<sub>Python: 1 · TypeScript: 1. Updated 2026-11-21 UTC.</sub>
+<sub>Python: 2 · TypeScript: 1. Updated 2026-11-22 UTC.</sub>
 <!-- METRICS:END -->
 
 <details>
